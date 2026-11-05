@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 In industrial environments, unexpected machine breakdowns cause catastrophic production bottlenecks. While technicians routinely troubleshoot mechanical, hydraulic, and electrical faults, historical diagnostic expertise remains locked away in unstructured text logs. When similar failures recur, technicians repeat diagnostics from scratch.
 
@@ -20,17 +20,9 @@ The **Industrial Maintenance Knowledge & Failure Traceability System** is a unif
 4. **Reactive Web Interface (Next.js 14 & FastAPI):** Real-time interactive dashboard featuring debounced live troubleshooting hints, telemetry visualization, automated workload-balanced dispatching, and role-gated administrative workflows.
 
 ---
-
-## 📑 Project Report & Deliverables
-
-The complete, submittable academic report has been compiled and verified against all course rubrics:
-- **Formal Academic Report (PDF):** [`DBMS_Project_Report.pdf`](./DBMS_Project_Report.pdf) *(56 pages, Times New Roman 12 pt, justified, 35+ embedded figures)*
-- **Editable Report Document (Word):** [`DBMS_Project_Report.docx`](./DBMS_Project_Report.docx) *(4.47 MB, styled with native Word tables, callouts, and captions)*
-- **Markdown Report Version:** [`DBMS_Project_Report.md`](./DBMS_Project_Report.md)
-
 ---
 
-## 🏛️ Tri-Database Architecture
+##  Tri-Database Architecture
 
 | Layer | Technology | Primary Function & Data Held | Key DBMS Concepts |
 | :--- | :--- | :--- | :--- |
@@ -43,7 +35,7 @@ The complete, submittable academic report has been compiled and verified against
 
 ---
 
-## 📐 Entity-Relationship (ER) Diagram
+##  Entity-Relationship (ER) Diagram
 
 ```mermaid
 erDiagram
@@ -70,7 +62,7 @@ erDiagram
 
 ---
 
-## ⚡ Advanced Database Concepts Implemented
+##  Advanced Database Concepts Implemented
 
 - **Stored Function:** `fn_open_failures(p_machine INT) RETURNS INT` – Stable function returning active non-resolved failures for any machine.
 - **Stored Procedure 1 (Auto-Dispatch):** `sp_assign_technician(p_failure INT, p_tech INT, INOUT p_maint INT)` – Dynamically load-balances tickets to the technician with the fewest active assignments.
@@ -94,7 +86,7 @@ erDiagram
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Prerequisites
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running.
@@ -132,7 +124,7 @@ npm run dev
 ```
 - Open application at: `http://localhost:3000`
 
-### 🔑 Demo Login Credentials
+###  Demo Login Credentials
 | Role | Username | Password | Permissions & Scope |
 | :--- | :--- | :--- | :--- |
 | **Plant Administrator** | `admin` | `admin123` | Full access: Add machines, components, technicians, delete sensor logs, remove vector records |
@@ -140,7 +132,7 @@ npm run dev
 
 ---
 
-## 🗂️ Project Directory Structure
+##  Project Directory Structure
 
 ```
 maintenance-traceability/
@@ -176,7 +168,7 @@ maintenance-traceability/
 
 ---
 
-## 📊 Course Rubric Completion Status
+##  Course Rubric Completion Status
 
 | # | Evaluation Criteria | Description | Status & Implementation Evidence |
 | :---: | :--- | :--- | :--- |
@@ -190,7 +182,7 @@ maintenance-traceability/
 
 ---
 
-## 👥 Individual Contribution Breakdown
+##  Individual Contribution Breakdown
 
 | Team Member | SRN | Core Responsibilities & Deliverables |
 | :--- | :--- | :--- |
