@@ -1,7 +1,7 @@
 # Industrial Maintenance Knowledge & Failure Traceability System
 
 **PES University · Department of Computer Science & Engineering (AI & ML)**  
-**Course:** UE23CS351A – Database Management Systems (DBMS) | Experiential Learning Level 3 (Aug – Dec 2025)
+**Course:** UE23CS351A – Database Management Systems (DBMS) | Experiential Learning Level 3
 
 ### Authors / Team Members
 - **Kshitij Satish Shetty** (SRN: `PES1UG24AM143`, 5th Sem – Section C)
